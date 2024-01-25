@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Medical-Form/static/css/main.530dd119.css",
+    "main.js": "/Medical-Form/static/js/main.44dd0374.js",
+    "index.html": "/Medical-Form/index.html",
+    "main.530dd119.css.map": "/Medical-Form/static/css/main.530dd119.css.map",
+    "main.44dd0374.js.map": "/Medical-Form/static/js/main.44dd0374.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.530dd119.css",
+    "static/js/main.44dd0374.js"
+  ]
+}
