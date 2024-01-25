@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto+Mono:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.App{
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container{
+  width: 1000px;
+  background-color: white;
+  padding: 0 4rem;
+}
+
+.heading h1{
+  
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.name,
+.age-p,
+.gender-p,
+.number-p,
+.email-p,
+.condition-pq,
+.symptom-pq,
+.medicated-pq{
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: .5rem 0;
+}
+
+.fname,
+.lname{
+  width: 47%;
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+
+.fname{
+  margin-right: 6%;
+}
+
+.name-box,
+.label-age,
+.label-gender,
+.label-number,
+.label-email,
+.condition-main,
+.symptom-main,
+.alcohol-main,
+.medication-main{
+  margin: 1rem 0;
+}
+
+.age-gender-box,
+.number-email-box{
+  display: flex;
+}
+
+.age-p,
+.number-p{
+  display: inline;
+}
+
+.label-age,
+.label-gender,
+.label-number,
+.label-email{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-gender,
+.label-email{
+  padding-left: 3%;
+}
+
+.age,
+.number{
+  width: 94%;
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+
+.gender,
+.email{
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+
+
+
+.condition-container,
+.symptom-container,
+.medicated-container,
+.alcohol-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.condition-box,
+.symptom-box,
+.medicated-box,
+.alcohol-box{
+  display: flex;
+  padding-left: 1rem;
+}
+
+.condition-p,
+.symptom-p,
+.medicated-p,
+.alcohol-p{
+  display: inline;
+}
+
+.condition-p,
+.symptom-p,
+.medicated-p,
+.alcohol-p{
+  padding-left: 1rem;
+}
+
+.condition-text-p,
+.symptom-text-p,
+.medication-p{
+  font-size: large;
+  padding-top: 1rem;
+}
+
+.condition-text,
+.symptom-text{
+  width: 100%;
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+
+.medication{
+  width: 100%;
+  height: 4rem;
+  padding: .65rem 1rem;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+button{
+  padding: .5rem 3rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: large;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  font-weight: 800;
+}
+
+button:hover{
+  background-color: #9599E2;
+  background-image: linear-gradient(135deg, #9599E2 0%, #8BC6EC 100%);
+  cursor: pointer;
+}
